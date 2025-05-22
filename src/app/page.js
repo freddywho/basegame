@@ -6,12 +6,7 @@ export default function Home() {
     <div className={styles.page}>
       <div>44</div>
       <ul>
-        <li>w</li>
-        <li>a</li>
-        <li>s</li>
-        <li>s</li>
-        <li>u</li>
-        <li>p</li>
+        <li>This is it</li>
       </ul>
       <button>click me</button>
       <button>click me</button>
