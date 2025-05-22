@@ -17,6 +17,7 @@ export default function Home() {
       <button>click me</button>
       <button>click me</button>
       <button>click hurr</button>
+      <button>right thurr</button>
     </div>
   );
 }
