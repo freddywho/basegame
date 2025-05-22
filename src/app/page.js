@@ -12,6 +12,9 @@ export default function Home() {
         <li>d</li>
       </ul>
       <button>click me</button>
+      <button>click me</button>
+      <button>click me</button>
+      <button>click</button>
     </div>
   );
 }
