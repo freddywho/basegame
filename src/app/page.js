@@ -6,10 +6,9 @@ export default function Home() {
     <div className={styles.page}>
       <div>44</div>
       <ul>
-        <li>No problemo</li>
+        <li className={styles.bluey}>Buenisimo</li>
+        <li className={styles.mamamia}>Ricisimo</li>
       </ul>
-      <button>aqui</button>
-      <button>click me</button>
       <button>click me</button>
       <button>click hurr</button>
       <button>right thurr</button>
