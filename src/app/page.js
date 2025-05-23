@@ -9,9 +9,19 @@ export default function Home() {
         <li className={styles.bluey}>Buenisimo</li>
         <li className={styles.mamamia}>Ricisimo</li>
       </ul>
-      <button>click me</button>
+      <h6 className={styles.sammich}>no clicky</h6>
       <button>click hurr</button>
       <button>right thurr</button>
     </div>
   );
 }
+
+
+/*
+
+For every tag, there's an opening tag and a closing tag
+<div>
+bueno (child)
+</div>
+
+*/
