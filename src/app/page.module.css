@@ -1,19 +1,23 @@
-.flag {
-  width: 100vw;
+.pageContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 100vh;
-  background-color: white;
-  position: relative;
-  margin: 0;
-  padding: 0;
 }
 
-.circle {
-  width: 30vmin;
-  height: 30vmin;
-  background-color: #bc002d;
-  border-radius: 50%;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+.externalLink {
+  font-size: 1.5rem;
+  color: darkblue;
+  text-decoration: underline;
+  font-weight: bold;
 }
+
+
+
+
+
+
+
+
+
+

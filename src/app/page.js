@@ -1,10 +1,16 @@
-import Image from "next/image";
 import styles from './page.module.css';
 
-export default function Home() {
+export default function HomePage() {
   return (
-    <div className={styles.flag}>
-      <div className={styles.circle}></div>
+    <div className={styles.pageContainer}>
+      <a
+        href="https://www.zillow.com/homedetails/0-L-Kachemak-Bay-15-Homer-AK-99603/448273625_zpid/"
+        target="_blank"
+        rel="noopener noreferrer"
+        className={styles.externalLink}
+      >
+        Not Japan
+      </a>
     </div>
   );
 }
@@ -12,11 +18,10 @@ export default function Home() {
 
 
 
-/*
 
-For every tag, there's an opening tag and a closing tag
-<div>
-bueno (child)
-</div>
 
-*/
+
+
+
+
+
