@@ -1,16 +1,8 @@
-.pageContainer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
+.stateFlag {
+  border: 3px dotted cyan;
+  width: 300px;
 }
 
-.externalLink {
-  font-size: 1.5rem;
-  color: darkblue;
-  text-decoration: underline;
-  font-weight: bold;
-}
 
 
 
