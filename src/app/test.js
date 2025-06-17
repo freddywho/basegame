@@ -1,3 +1,20 @@
+function incrementNumbers(array) {
+    array.forEach(element => {
+        if (typeof element === 'number') {
+            console.log(element + 1);
+        }
+    });
+}incrementNumbers([1, 2, 'a', 4, true, 10]);
+
+
+
+
+
+
+
+
+/*
+
 var restaurantBillsForADay = [2, 5, 9, 12, 2, 199, 4];
 // console.log("billsforaday", restaurantBillsForADay.length) //7
 // .length is a property on the array data type (type of data called an array)
@@ -9,3 +26,7 @@ var indexNumber  = 1;
 // console.log(";;;", cups[0]) // ;;; a
 // console.log(peeps[2]) // alex
 console.log(peeps[indexNumber]) // pedro // this is the same as (peeps[1]) with the var indexNumber  = 1;
+console.log(peeps[indexNumber+1]) // alex
+console.log(peeps[peeps.length-1]) // alex
+
+*/
