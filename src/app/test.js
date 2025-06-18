@@ -1,3 +1,21 @@
+import styles from './page.module.css';
+
+export default function TestPage() {
+  return (
+    <div className={styles.container}>
+      <img
+        src="https://www.countryflags.com/wp-content/uploads/jamaica-flag-jpg-xl.jpg"
+        alt="Jamaican Flag"
+        className={styles.flag}
+      />
+    </div>
+  );
+}
+
+
+
+/* 
+
 function multiplyFirstAndLast(array) {
     const result = array[0] * array[array.length - 1];
     console.log(result);
