@@ -1,10 +1,18 @@
+function multiplyFirstAndLast(array) {
+    const result = array[0] * array[array.length - 1];
+    console.log(result);
+}
+
+multiplyFirstAndLast([4, 6, 8, 4]);
+
+/*
 function incrementNumbers(array) {
     array.forEach(element => {
         if (typeof element === 'number') {
             console.log(element + 1);
         }
     });
-}incrementNumbers([1, 2, 'a', 4, true, 10]);
+}incrementNumbers([1, 2, 3]);
 
 
 
