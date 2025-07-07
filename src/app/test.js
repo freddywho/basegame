@@ -1,3 +1,32 @@
+function capitalizeWord(word) {
+  if (typeof word !== 'string' || word.length === 0) {
+    return word; 
+  }
+  return word.charAt(0).toUpperCase() + word.slice(1).toLowerCase();
+}
+
+function capitalizeFullName(fullName) {
+  if (typeof fullName !== 'string' || fullName.trim().length === 0) {
+    console.log("Please provide a valid name.");
+    return;
+  }
+
+  const words = fullName.trim().split(/\s+/); // splits by one or more spaces
+  const capitalizedWords = words.map(capitalizeWord);
+  return capitalizedWords.join(' ');
+}
+
+const names = ["alex", "martha", "joel alfonso", "puerto cayo"];
+
+names.forEach(name => {
+  const capitalized = capitalizeFullName(name);
+  console.log(`Original: "${name}" → Capitalized: "${capitalized}"`);
+});
+
+
+
+/* 
+
 import styles from './page.module.css';
 
 export default function TestPage() {
