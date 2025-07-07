@@ -1,3 +1,42 @@
+const jokes = [
+  "I'm going to power wash the deck",
+  "I'm going to invite the neighbor kids to play on the deck",
+  "I'm going to needlepoint on the deck",
+  "I'm going to treat the deck for black mold",
+  "I'm going to throw a quilting party on the deck",
+  "I'm going to have a girls night on the deck",
+  "I'm going to bleach Daddy's hair on the deck",
+  "I'm going to mop the poop deck",
+  "Let's decorate the deck with cacti",
+  "Let's somersault on the deck",
+  "Let's have a luau and get lei'd on the deck",
+  "Let's line dance on the deck",
+  "Let's install comfortable seating on the deck",
+  "Let's have a seance on the deck",
+  "Let's hang our wet laundry on the deck",
+  "Let's hang a flag on the deck",
+  "Let's sand down the deck",
+  "Let's invite priests over for a deck meet and greet",
+  "I've found some startling defects in the deck",
+  "I love to watch squirrels frolic on the deck",
+  "The wood on the deck has gotten soft with wear and tear",
+  "If you trim the bushes, it makes the deck look bigger"
+];
+
+// Function to get a random joke from the array
+function getRandomJoke() {
+  const randomIndex = Math.floor(Math.random() * jokes.length);
+  return jokes[randomIndex];
+}
+
+// Print a random joke to the terminal
+console.log("Here's a random deck joke for you:");
+console.log(getRandomJoke());
+
+
+
+/*
+
 function capitalizeWord(word) {
   if (typeof word !== 'string' || word.length === 0) {
     return word; 
